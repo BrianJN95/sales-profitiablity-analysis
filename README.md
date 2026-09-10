@@ -22,3 +22,11 @@ exploratory analysis, KPI reporting and a Power BI dashboard.
 
 ## Author
 Brian Jacob Nergiz
+
+## Key Finding
+
+Tables were profitable without discounts, but became unprofitable from a
+20% discount onward. The largest losses occurred at discount levels between
+40% and 50%.
+
+![Profit impact of discounts on Tables](screenshots/tables_discount_profit.png)
