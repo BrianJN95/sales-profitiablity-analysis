@@ -17,8 +17,14 @@ revenue drivers, high-margin products and potential profitability risks.
 - Excel
 
 ## Project Status
-Work in progress. The project will include data preparation,
-exploratory analysis, KPI reporting and a Power BI dashboard.
+In progress. The project currently includes data preparation,
+category-level profitability analysis and a discount analysis for
+the Tables sub-category.
+
+Next steps:
+- Analyse profitability by region and customer segment.
+- Build a reproducible SQL analysis workflow.
+- Create an interactive Power BI dashboard.
 
 ## Author
 Brian Jacob Nergiz
