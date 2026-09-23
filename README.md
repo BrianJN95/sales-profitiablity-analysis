@@ -22,17 +22,27 @@ category-level profitability analysis and a discount analysis for
 the Tables sub-category.
 
 Next steps:
-- Analyse profitability by region and customer segment.
+- Analyse profitability by customer segment.
 - Build a reproducible SQL analysis workflow.
 - Create an interactive Power BI dashboard.
 
 ## Author
 Brian Jacob Nergiz
 
-## Key Finding
+## Discount Analysis: Tables
 
 Tables were profitable without discounts, but became unprofitable from a
 20% discount onward. The largest losses occurred at discount levels between
 40% and 50%.
 
 ![Profit impact of discounts on Tables](screenshots/tables_discount_profit.png)
+
+**Key finding:** Discounts of 20% or more make the Tables sub-category unprofitable.
+
+## Regional Profitability Analysis: Tables
+
+The regional analysis shows that the Tables sub-category is only slightly profitable in the West region, while the South, Central and East regions generate losses.
+
+![Profit by Region — Tables Sub-Category](screenshots/profit_by_region_tables.png)
+
+**Key finding:** The East region has the weakest profitability, with a profit margin of -28.17%.
