@@ -45,4 +45,4 @@ The regional analysis shows that the Tables sub-category is only slightly profit
 
 ![Profit by Region — Tables Sub-Category](screenshots/profit_by_region_tables.png)
 
-**Key finding:** The East region has the weakest profitability, with a profit margin of -28.17%.
+**Key finding:** East has the largest absolute loss (-11,025) and the weakest profit margin (-28.17%), based on the regional profitability calculation.
