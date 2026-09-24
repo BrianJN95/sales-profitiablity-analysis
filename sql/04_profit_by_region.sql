@@ -8,7 +8,11 @@ WITH tables_clean AS (
         Region,
         CAST(REPLACE(Sales, ',', '.') AS DOUBLE) AS sales,
         CAST(REPLACE(Profit, ',', '.') AS DOUBLE) AS profit
-    FROM sales_clean
+    FROM read_csv(
+    'superstore_sales_clean.csv',
+    header = true,
+    all_varchar = true
+)
     WHERE Category = 'Furniture'
       AND "Sub-Category" = 'Tables'
 )
