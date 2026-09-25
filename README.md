@@ -83,4 +83,13 @@ The customer segment analysis shows that the Tables sub-category generates losse
 
 ![Profit by Customer Segment — Tables](screenshots/profit_by_segment_tables.png)
 
+## Recommendations
+
+Based on the Tables sub-category analysis:
+
+- Review discounts of 20% or more, as they are associated with unprofitable sales.
+- Prioritise a detailed review of the East region, which has the largest loss and the weakest profit margin.
+- Reassess the Consumer segment, which generates the highest sales volume but also the largest loss.
+- Review product pricing, procurement costs and discount rules for Tables before expanding sales volume.
+
 **Key finding:** Consumer generates the highest sales volume but also the largest absolute loss (-9,728). Corporate has the least negative profit margin (-6.92%), but remains unprofitable.
