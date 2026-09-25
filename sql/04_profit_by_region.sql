@@ -1,5 +1,5 @@
 -- Profitability by region for the Tables sub-category
--- Source: superstore_sales_clean.csv
+-- Source: 'data/superstore_sales_clean.csv'
 -- Note: Sales and Profit use a comma as decimal separator,
 -- so they are converted from text to numeric values.
 
