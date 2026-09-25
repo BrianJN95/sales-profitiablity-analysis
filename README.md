@@ -18,15 +18,32 @@ revenue drivers, high-margin products and potential profitability risks.
 
 ## SQL Workflow
 
-The SQL analysis is executed with DuckDB using the cleaned Superstore dataset exported as CSV.
+The SQL analysis is executed with DuckDB using the cleaned Superstore dataset stored in this repository.
 
+- Dataset: `data/superstore_sales_clean.csv`
 - `sql/04_profit_by_region.sql` analyses sales, profit, costs and profit margins by region for the Tables sub-category.
 - `sql/05_profit_by_segment.sql` analyses sales, profit, costs and profit margins by customer segment for the Tables sub-category.
 
-To run a query locally with DuckDB, place the SQL file and `superstore_sales_clean.csv` in the same folder and run:
+To run the SQL analyses locally:
+
+1. Download or clone this repository.
+2. Open a terminal in the repository root folder.
+3. Start DuckDB:
+
+```bash
+duckdb
+```
+
+4. Run the regional profitability analysis:
 
 ```sql
-.read 04_profit_by_region.sql
+.read sql/04_profit_by_region.sql
+```
+
+5. Run the customer segment profitability analysis:
+
+```sql
+.read sql/05_profit_by_segment.sql
 ```
 
 ## Project Status
