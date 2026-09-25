@@ -8,7 +8,7 @@ WITH tables_clean AS (
         CAST(REPLACE(Sales, ',', '.') AS DOUBLE) AS sales,
         CAST(REPLACE(Profit, ',', '.') AS DOUBLE) AS profit
     FROM read_csv(
-        'superstore_sales_clean.csv',
+        'data/superstore_sales_clean.csv',
         header = true,
         all_varchar = true
     )
