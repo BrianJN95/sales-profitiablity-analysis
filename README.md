@@ -16,6 +16,19 @@ revenue drivers, high-margin products and potential profitability risks.
 - Power BI
 - Excel
 
+## SQL Workflow
+
+The SQL analysis is executed with DuckDB using the cleaned Superstore dataset exported as CSV.
+
+- `sql/04_profit_by_region.sql` analyses sales, profit, costs and profit margins by region for the Tables sub-category.
+- `sql/05_profit_by_segment.sql` analyses sales, profit, costs and profit margins by customer segment for the Tables sub-category.
+
+To run a query locally with DuckDB, place the SQL file and `superstore_sales_clean.csv` in the same folder and run:
+
+```sql
+.read 04_profit_by_region.sql
+```
+
 ## Project Status
 In progress. The project currently includes data preparation,
 category-level profitability analysis and a discount analysis for
